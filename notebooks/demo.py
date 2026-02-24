@@ -11,3 +11,7 @@ df['Age'].mean()
 
 print(df)
 print(f'Mean Age: {df['Age'].mean()}')
+
+# creates a dictionary with name and age, converts to a dataframe, gives statistics for data frame, calculates the average age.
+print(df)
+print(f'Mean Age: {df["Age"].mean()}')
