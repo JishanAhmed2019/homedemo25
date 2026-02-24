@@ -6,3 +6,8 @@ df = pd.DataFrame(data)
 df
 df.describe()
 df['Age'].mean()
+
+# This code creates a dictionary, a data frame, displays the dataframe, describes (gives statistics like mean, median, count, intervals, etc.)
+
+print(df)
+print(f'Mean Age: {df['Age'].mean()}')
